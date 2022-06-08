@@ -13,21 +13,14 @@ body {
 /*#endregion Body*/
 /*#region Header*/
 .header {
-    background-color: darkgray;
-    padding: 25px;
     color: white;
+    background-color: darkgray;
 }
 .header h1 {
     display: inline-block;
     font-size: 40px;
 }
-.header div {
-    font-size: 20px;
-    padding-top: 20px;
-    font-family: cursive;
-    margin-right: 20px;
-    float: right;
-}
+
 .header section {
     font-family: cursive;
     font-size: 25px;
@@ -36,8 +29,8 @@ body {
     float: right;
 }
 .header section ul li {
+    display: inline;
     margin-left: 20px;
-    display: inline-block;
 }
 
 /*#endregion Header*/
@@ -49,9 +42,82 @@ body {
     background-position: center;
 }
 /*#endregion*/
-.about-me img {
-  margin: 50px;
-}
-.title {
+/*#region "About Me" section*/
+.about-me {
+    padding: 25px;
     text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.about-me h2 {
+    text-align: center;
+    margin: 0 auto 35px auto;
+    padding-bottom: 10px;
+    border-bottom: 3px solid;
+    width: 50%;
+}
+.my-projects h2 {
+    text-align: center;
+    margin: 0 auto 35px auto;
+    padding-bottom: 10px;
+    border-bottom: 3px solid;
+    width: 50%;
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.run-project {
+    background-image: url("/assets/images/runbuddy-img.jpg");
+    background-position: center;
+    font-size: 25px;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    margin: 10px;
+    color: rgba(5, 57, 146, 0.995);
+}
+.run-project:hover {
+    background: darkgray;
+}
+.horiseon-project {
+    background-image: url("/assets/images/Horiseon-Strategies.jpg");
+    background-position: center;
+    font-size: 25px;
+    width: 300px;
+    height: 225px;
+    padding: 20px;
+    margin: 10px;
+    color:rgba(30, 111, 252, 0.995);
+}
+.horiseon-project:hover {
+    background: darkgray;
+}
+.coming-soon {
+    background-position: center;
+    font-size: 25px;
+    width: 300px;
+    height: 225px;
+    padding: 20px;
+    margin: 10px;
+    background-color: darkgray;
+}
+.footer {
+    width: 100%;
+    background-color: darkgray;
+    text-align: center;
+}
+.footer p {
+    font-size: 20px;
+}
+.contact {
+    width: 50%;
+    background-color: darkgray;
+    text-align: center;
+    border-bottom: 3px solid;
+    margin: 0 auto 35px auto;
+    padding-bottom: 10px;
+    font-size: 25px;
 }
