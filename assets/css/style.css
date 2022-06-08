@@ -32,7 +32,6 @@ body {
     display: inline;
     margin-left: 20px;
 }
-
 /*#endregion Header*/
 /*#region Hero*/
 .hero {
@@ -56,6 +55,7 @@ body {
     border-bottom: 3px solid;
     width: 50%;
 }
+/*#region Projects*/
 .my-projects h2 {
     text-align: center;
     margin: 0 auto 35px auto;
@@ -104,6 +104,8 @@ body {
     margin: 10px;
     background-color: darkgray;
 }
+/*#endregion Projects*/
+/*#region footer*/
 .footer {
     width: 100%;
     background-color: darkgray;
@@ -121,3 +123,4 @@ body {
     padding-bottom: 10px;
     font-size: 25px;
 }
+/*#endregion footer*/
