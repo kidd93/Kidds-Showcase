@@ -1,0 +1,58 @@
+/*#region universal selector*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*#endregion universal selector*/
+/*#region Body*/
+body {
+    background-color: rgba(252, 111, 10, 0.403);
+    font-family: cursive;
+}
+/*#endregion Body*/
+/*#region Header*/
+.header {
+    background-color: darkgray;
+    padding: 25px;
+    color: white;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 40px;
+}
+.header div {
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: cursive;
+    margin-right: 20px;
+    float: right;
+}
+.header section {
+    font-family: cursive;
+    font-size: 25px;
+    margin-right: 20px;
+    padding-top: 20px;
+    float: right;
+}
+.header section ul li {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+/*#endregion Header*/
+/*#region Hero*/
+.hero {
+    background-image: url("/assets/images/heroimage.JPG");
+    height: 400px;
+    width: 100%;
+    background-position: center;
+}
+/*#endregion*/
+.about-me img {
+  margin: 50px;
+  
+}
+.title {
+    text-align: center;
+}
