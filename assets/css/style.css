@@ -71,7 +71,7 @@ body {
     flex-direction: row;
 }
 .run-project {
-    background-image: url("/assets/images/runbuddy-img.jpg");
+    background-image: url("/assets/images/runbuddy-img.JPG");
     background-position: center;
     font-size: 25px;
     width: 500px;
@@ -84,7 +84,7 @@ body {
     background: darkgray;
 }
 .horiseon-project {
-    background-image: url("/assets/images/Horiseon-Strategies.jpg");
+    background-image: url("/assets/images/Horiseon-Strategies.JPG");
     background-position: center;
     font-size: 25px;
     width: 300px;
