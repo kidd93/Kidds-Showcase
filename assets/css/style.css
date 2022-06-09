@@ -35,7 +35,7 @@ body {
 /*#endregion Header*/
 /*#region Hero*/
 .hero {
-    background-image: url("/assets/images/heroimage.JPG");
+    background-image: url("/assets/images/heroimage.jpg");
     height: 400px;
     width: 100%;
     background-position: center;
@@ -71,7 +71,7 @@ body {
     flex-direction: row;
 }
 .run-project {
-    background-image: url("/assets/images/runbuddy-img.JPG");
+    background-image: url("/assets/images/runbuddy-img.jpg");
     background-position: center;
     font-size: 25px;
     width: 500px;
@@ -84,7 +84,7 @@ body {
     background: darkgray;
 }
 .horiseon-project {
-    background-image: url("/assets/images/Horiseon-Strategies.JPG");
+    background-image: url("/assets/images/Horiseon-Strategies.jpg");
     background-position: center;
     font-size: 25px;
     width: 300px;
