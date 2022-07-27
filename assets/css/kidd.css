@@ -1,0 +1,155 @@
+.info {
+    background: linear-gradient(25deg, purple, black);
+    border: 3px solid white;
+    opacity: 0.5;
+    margin-bottom: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: var(--nav-height);
+    width: 99%;
+    position: fixed;
+    border-radius: 25px;
+    /* top: 0; */
+    /* left: 0; */
+    /* margin-right: px; */
+}
+
+.info:hover {
+    opacity: 1;
+}
+
+.about {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 22px;
+    border: none;
+    background-color: rgb(150, 109, 150);
+    color: white;
+    border-radius: 8px;
+    margin: 2px;
+    transition: 0.6s;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.self {
+    border-radius: 50%;
+    padding: 5px;
+    width: 175px;
+}
+
+body {
+    background-image: url("/assets/images/996034.jpg");
+    background-size: cover;
+    justify-content: center;
+    overflow: hidden;
+    width: 95%;
+    align-items: center;
+
+}
+.col1 {
+    width: 20%;
+    background: linear-gradient(25deg, purple, black);
+    color: white;
+    font-size: 22px;
+    font: 50px;
+    height: 40rem;
+    opacity: 0.5;
+    margin-left: 40px;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 25px;
+    border: 3px solid white;
+}
+.col1:hover {
+    opacity: 1;
+}
+.col2 {
+    background:linear-gradient(25deg, purple, black);
+    color: white;
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 75%;
+    height: 40rem;
+    opacity: 0.5;
+    border-radius: 25px;
+    border: 3px solid white;
+}
+
+.col2:hover {
+    opacity: 1;
+}
+
+.btn2 {
+    font-size: 22px;
+    border: none;
+    background-color: rgb(150, 109, 150);
+    color: white;
+    border-radius: 8px;
+    margin: 2px;
+    transition: 0.6s;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid white;
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--nav-height);
+    width: 99%;
+    position: fixed;
+    margin-top:50px;
+    
+}
+
+.contact {
+    /* display: flex; */
+    /* justify-content: center; */
+    border: 3px solid white;
+    background:linear-gradient(25deg, purple, black);
+    color: white;
+    opacity: 0.5;
+    border-radius: 25px;
+    white-space: nowrap;
+}
+
+.contact:hover {
+    opacity: 1;
+}
+
+.icons {
+    /* display: flex; */
+    justify-content: center;
+    display: inline-block;
+    /* float: right; */
+    width: 150%;
+    /* height: 50%; */
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    /* height: var(--nav-height); */
+    /* width: 99%; */
+    /* position: fixed; */
+    
+
+}
