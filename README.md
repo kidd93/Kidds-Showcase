@@ -10,10 +10,6 @@
 
 * Once my index.html was in the beginning stages I then tried to insert styling.
 
-* I added comments with in the style.css sheet.
-
-* I have an issue with my images and my github syncing up which has still yet to be resolved but I am working on that.
-
 # URL link to Kidds Showcase
 
 * http://127.0.0.1:5500/index.html
