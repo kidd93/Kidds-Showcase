@@ -11,9 +11,6 @@
     width: 99%;
     position: fixed;
     border-radius: 25px;
-    /* top: 0; */
-    /* left: 0; */
-    /* margin-right: px; */
 }
 
 .info:hover {
@@ -46,7 +43,7 @@
 }
 
 body {
-    background-image: url("/assets/images/996034.jpg");
+    background-image: url("./assets/images/996034.jpg");
     background-size: cover;
     justify-content: center;
     overflow: hidden;
@@ -124,8 +121,6 @@ footer {
 }
 
 .contact {
-    /* display: flex; */
-    /* justify-content: center; */
     border: 3px solid white;
     background:linear-gradient(25deg, purple, black);
     color: white;
