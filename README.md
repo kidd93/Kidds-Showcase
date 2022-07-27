@@ -12,7 +12,8 @@
 
 # URL link to Kidds Showcase
 
-* http://127.0.0.1:5500/index.html
+* http://127.0.0.1:5502/kidd.html
 
 # Screenshot
-![alt text](assets/images/screenshot.png)
+![alt text](/assets/images/Screenshot.png)
+![alt text](assets/images/screenshot2.png)
