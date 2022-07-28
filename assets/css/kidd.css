@@ -43,7 +43,7 @@
 }
 
 body {
-    background-image: url("./assets/images/996034.jpg");
+    background-image: url("/assets/images/996034.jpg");
     background-size: cover;
     justify-content: center;
     overflow: hidden;
