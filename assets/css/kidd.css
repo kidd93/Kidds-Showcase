@@ -43,7 +43,7 @@
 }
 
 body {
-    background-image: url("/assets/images/996034.jpg");
+    background-image: url("https://img.wallpapersafari.com/tablet/2560/1700/49/50/15jQ3w.jpg");
     background-size: cover;
     justify-content: center;
     overflow: hidden;
@@ -134,17 +134,7 @@ footer {
 }
 
 .icons {
-    /* display: flex; */
     justify-content: center;
     display: inline-block;
-    /* float: right; */
     width: 150%;
-    /* height: 50%; */
-    /* align-items: center; */
-    /* justify-content: space-around; */
-    /* height: var(--nav-height); */
-    /* width: 99%; */
-    /* position: fixed; */
-    
-
 }
